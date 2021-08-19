@@ -24,3 +24,7 @@ const randomNumber = Math.floor(
 );
 console.log(randomNumber);
 console.log(minValue <= randomNumber <= maxValue);
+
+// To get the particular number of places after decimal
+const myNewStockValue = 4097.434343;
+console.log(myNewStockValue.toFixed(3));
