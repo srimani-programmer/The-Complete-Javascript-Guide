@@ -50,3 +50,7 @@ console.log("Trimmed Data:\n" + data.trim());
 
 // To get the index value
 console.log(employeeName.indexOf("Man"));
+
+// To check a particular sub string is present or not
+
+console.log(data.includes("data"));
