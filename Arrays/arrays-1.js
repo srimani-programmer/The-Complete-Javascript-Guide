@@ -58,5 +58,3 @@ console.log(namesCapitalCase);
 
 const namesLowerCase = names.map((name) => name.toLowerCase());
 console.log(namesLowerCase);
-
-// reduce method in array
