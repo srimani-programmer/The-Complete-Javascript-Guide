@@ -42,4 +42,13 @@ console.log("************************ FOR EACH LOOP ************************");
 personMap.forEach((value, key) => {
   console.log(`Key is: ${key} and the value is: ${value}`);
 });
-// console.log(personMap);
+
+// Delete an element from map
+personMap.delete("age");
+
+console.log(personMap);
+
+// Clearing the entire map
+personMap.clear();
+
+console.log(personMap);
